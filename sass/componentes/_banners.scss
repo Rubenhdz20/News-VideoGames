@@ -1,0 +1,26 @@
+.banner--homepage {
+    max-width: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: $color-secundario;
+    border-radius: 5px;
+    color: $color-claro;
+    h3 {
+        @include font-size(20px);
+        @include titulos($Fuente2);
+    } 
+    p {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .button {
+        padding: 10px;
+        height: 50px;
+        margin-top: 20px;
+        border: 2px solid $color-claro;
+        @include font-size(18px);
+        @include titulos($Fuente2);
+    }
+}
